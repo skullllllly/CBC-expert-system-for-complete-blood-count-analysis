@@ -3,7 +3,7 @@ from pathlib import Path
 import pymupdf
 
 
-DEFAULT_PDF = Path(__file__).resolve().parent.parent / "samples" / "Report2_process2.pdf"
+DEFAULT_PDF = Path(__file__).resolve().parent.parent / "samples" / "Report1_process.pdf"
 
 
 def read_pdf(file_path: str | Path) -> str:
